@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: ImageFX
+  m_Shader: {fileID: 4800000, guid: f3c1a8043f22aa54c9c5dcb7bedda654, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Glitch:
+        m_Texture: {fileID: 2800000, guid: 7a632f967e8ad42f5bd275898151ab6a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LensDirtness:
+        m_Texture: {fileID: 2800000, guid: 7da25282bcd3ccf43856cd33ef020416, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: cc2435ba82d2d438fb8efecebbc68789, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise:
+        m_Texture: {fileID: 2800000, guid: 8ca7da24597b2c74f9a2dfe585f102d7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Refract:
+        m_Texture: {fileID: 2800000, guid: 779866668e015bc4c9c39d404c6e22da, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RefractTex:
+        m_Texture: {fileID: 2800000, guid: 46feb8e3956d42449bdcf7a5c238dc34, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureTint:
+        m_Texture: {fileID: 2800000, guid: cb4d80170ee744940880f415f040081a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VertexTex:
+        m_Texture: {fileID: 2800000, guid: 19555d7d9d114c7f1100f5ab44295342, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Vignette:
+        m_Texture: {fileID: 2800000, guid: 95ef4804fe0be4c999ddaa383536cde8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VignetteTex:
+        m_Texture: {fileID: 2800000, guid: 8caa437b19957a045866b84c6218a0db, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpScale: 1
+    - _CellSize: 0.0023
+    - _Columns: 6
+    - _Cutoff: 0.5
+    - _Ddistance: 0
+    - _DepthPower: 4
+    - _DetailNormalMapScale: 1
+    - _Dirtness: 0.27
+    - _Distance: 0.05
+    - _DstBlend: 0
+    - _Frame: 1
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _LuminosityAmount: 1
+    - _Metallic: 0
+    - _Mode: 0
+    - _NoiseAmount: -0.5
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _Power: 0.192
+    - _RefractTexTiling: 1
+    - _Rotation: 1
+    - _Rows: 6
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _Step: 11.12
+    - _StepY: 1.11
+    - _TextureAmount: -0.15
+    - _UVSec: 0
+    - _VignetteAmount: 0.66
+    - _ZWrite: 1
+    m_Colors:
+    - _CellSize: {r: 2.59, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _DamageVector: {r: 6.68, g: -6.5, b: 20.75, a: 4.3}
+    - _Distance: {r: 0.05, g: 0.025, b: 0.0125, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Fog: {r: 0.47450984, g: 0.77267694, b: 1, a: 1}
+    - _ObjectPosition: {r: 0.38912743, g: -0.2680083, b: 0.88133496, a: 0}
+    - _RefractVector: {r: 0.01, g: 0, b: 1, a: 1}
+    - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    - _SpeedStrength: {r: -0.1, g: 0.1, b: 1, a: 1}

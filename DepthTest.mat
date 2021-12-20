@@ -1,0 +1,170 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: DepthTest
+  m_Shader: {fileID: 4800000, guid: e4c57d07eb8e18948aa867cf3981c53c, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 1
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BlendTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BlurTexA:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BlurTexB:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 05474e97e637e42ed91de62d3a484f71, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cube:
+        m_Texture: {fileID: 8900000, guid: 6f42ea9393aeca84c82361ea377647b6, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DepthRampTex:
+        m_Texture: {fileID: 2800000, guid: 53e71cc60705d4a49ad71768851612fe, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FogTex:
+        m_Texture: {fileID: 2800000, guid: 19555d7d9d114c7f1100f5ab44295342, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Illum:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 5c2d21374efb16e40a982dcab781d9a5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: f26e6e2603061444498bef322e1eed73, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RampTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShadowTex:
+        m_Texture: {fileID: 2800000, guid: 53e71cc60705d4a49ad71768851612fe, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Thickness:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Amount: 0
+    - _Amp: 3.27
+    - _Amplitude: 1
+    - _BumpAmt: 56.5
+    - _BumpScale: 1
+    - _ClipRange: 1
+    - _ColorFalloff: 16
+    - _Cutoff: 0.5
+    - _Density: 10
+    - _DepthFactor: 0.24
+    - _DepthPower: 0
+    - _DesatValue: 0.5
+    - _DetailNormalMapScale: 1
+    - _Dist: 100
+    - _DistortAmt: 100.5
+    - _DistortStrength: 0.16
+    - _Distortion: 0
+    - _DstBlend: 0
+    - _Emission: 1
+    - _ExtraHeight: 0.22
+    - _FogEnd: 20
+    - _FogStart: 0
+    - _Freq: 2.58
+    - _Frequency: 1
+    - _Glossiness: 0.281
+    - _InnerRatio: 0.5
+    - _Lacunarity: 1.92
+    - _LuminosityAmount: 0.547
+    - _Magnitude: 0.05
+    - _Metallic: 1
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Octaves: 8
+    - _Opacity: 0.51
+    - _Parallax: 0.02
+    - _Period: 1
+    - _Persistence: 0.8
+    - _Power: 1
+    - _RampOffset: 0
+    - _Res: 64
+    - _RidgeOffset: 1
+    - _RimPower: 0.38
+    - _Scale: 5.07
+    - _Shininess: 0.078125
+    - _SrcBlend: 1
+    - _Transparency: 1
+    - _UVSec: 0
+    - _Warp: 0.25
+    - _WaveAmp: 1.25
+    - _WaveSpeed: 36.72
+    - _ZWrite: 1
+    - _fadeDepth: 0.36
+    - _fadeStart: 0.87
+    - _useLightingInFade: 1
+    m_Colors:
+    - _Color: {r: 0, g: 0.33165145, b: 1, a: 0.6627451}
+    - _EdgeColor: {r: 1, g: 0.0047169924, b: 0.0047169924, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FogBaseColor: {r: 0, g: 1, b: 1, a: 1}
+    - _FogColor: {r: 0.08758645, g: 0.7941176, b: 0.15093045, a: 1}
+    - _FogDenseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Offset: {r: 0, g: 1.04, b: -0.47, a: 0}
+    - _QOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _ReflectColor: {r: 1, g: 0, b: 0.7330103, a: 0.5}
+    - _RimColor: {r: 1, g: 0, b: 0.561501, a: 0}
+    - _SpecColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _SubColor: {r: 1, g: 1, b: 1, a: 1}
+    - _colorModifier: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+    - _colorToFade: {r: 0, g: 0.093416885, b: 0.2264151, a: 0.7137255}
